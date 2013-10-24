@@ -169,9 +169,10 @@ weighted_average_one = (trange_one + prange_one) / 2
 weighted_average_two = (trange_two + prange_two) / 2
 weighted_average_three = (trange_three + prange_three) / 2
 
-puts weighted_average_one
-puts weighted_average_two
-puts weighted_average_three
+puts ''
+puts ''
+puts '------------------------------------------------------------'
+puts ''
 
 if weighted_average_one < weighted_average_two && weighted_average_one < weighted_average_three
 	puts 'The Best Day of this 5 Day Range to wash your car is DAY 1'
@@ -180,6 +181,8 @@ elsif weighted_average_two < weighted_average_one && weighted_average_two < weig
 else
 	puts 'The Best Day of this 5 Day Range to wash your car is DAY 3'
 end
+puts''
+puts '------------------------------------------------------------'
 
 
 =begin
